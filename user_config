@@ -1,0 +1,23 @@
+{
+	"node": {
+		"PRIVATE_KEY":"fe2mlcbjpn_private_cert.key",
+		"PRIVATE_CERTIFICATE":"fe2mlcbjpn_private_cert.crt",
+		"ROOT_CA":"fe2mlcbjpn_ca.crt",
+		"NODE_ID":"ec296760-7ffd-46cd-8b12-8a9779163a2d",
+		"PROJECT_ID":"c56b0c361db64ecba74bd83fcdc83be3",
+		"MASTER_URL":"https://ief2-placement.cn-north-1.myhuaweicloud.com",
+		"NODE_NAME":"edge-node",
+		"ENABLE_GPU":"false",
+		"REGION":"cn-north-1",
+		"DIS_API_VERSION":"v2",
+		"DIS_URL":"https://dis.cn-north-1.myhuaweicloud.com:20004",
+		"OBS_URL":"https://obs.cn-north-1.myhwclouds.com",
+		"CES_URL":"https://ces.cn-north-1.myhuaweicloud.com",
+		"CES_VERSION":"V1.0",
+		"METRIC_NAMESPACE":"SRV.EDG",
+		"CES_REPORT_INTERVAL":"60",
+		"LTS_URL":"https://lts.cn-north-1.myhuaweicloud.com",
+		"LTS_VERSION":"v1.0",
+		"LTS_REPORT_INTERVAL":"60"
+	}
+}

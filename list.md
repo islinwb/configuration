@@ -11,3 +11,5 @@
 - xshell
 
 ## Ubuntu 16.04
+### basic
+`make gcc`

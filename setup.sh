@@ -57,8 +57,10 @@ wget -o go.tar.gz http://mirrors.ustc.edu.cn/golang/go1.11.2.linux-amd64.tar.gz
 tar -zxvf go.tar.gz -C /usr/local/
 echo "export GOROOT=/usr/local/go" >> ~/.zshrc
 echo "export GOBIN=\$GOROOT/bin" >> ~/.zshrc
-echo "export GOPATH=/home/gop" >> ~/.zshrc
+
 echo "export PATH=\$PATH:\$GOBIN" >> ~/.zshrc
+
+echo "export GOPATH=/home/gop" >> ~/.zshrc
 source ~/.zshrc
 
 # install docker

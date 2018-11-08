@@ -1,0 +1,40 @@
+[core]
+        editor = vi
+        ignorecase = false
+        autocrlf = input 
+[http]
+        sslVerify = false
+[https]
+        sslVerify = false        
+[alias]
+        st = status
+
+        br = branch
+        bm = branch -m
+
+        ci = commit
+        cm = commit -m
+        ca = commit --amend
+
+        co = checkout
+        us = reset HEAD --
+
+        lg = log --pretty=oneline
+
+        rv = remote -v
+        ra = remote add
+        rs = remote set-url
+
+        rh = reset --hard
+
+        rb = rebase
+        ri = rebase -i
+        rc = rebase --continue
+
+        cp = cherry-pick
+        cpt = cherry-pick --continue
+
+        pf = push -f
+
+        cf = clean -f .
+        cfd = clean -f -d .
